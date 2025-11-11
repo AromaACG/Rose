@@ -26,7 +26,7 @@ cat >/usr/local/etc/xray/config.json <<EOF
         "accounts": [
           {
             "user": "acg",
-            "pass": "cAz6by#2"
+            "pass": "cAz6by12A"
           }
         ],
         "udp": true
