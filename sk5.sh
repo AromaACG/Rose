@@ -6,7 +6,7 @@
 set -e
 
 # ========== 1. 安装 Xray ==========
-bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install
+bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)"
 
 # ========== 2. 写入配置文件 ==========
 cat >/usr/local/etc/xray/config.json <<EOF
@@ -93,3 +93,4 @@ echo "账号：acg"
 echo "密码：cAz6by#2"
 echo "----------------------------"
 echo "已启用防火墙保护，仅开放 22 与 23321 端口"
+
